@@ -1,4 +1,12 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import './settings'
+
+import VueEchart from 'vue-echarts'
+
+const app = createApp(App)
+
+app.component('v-chart', VueEchart)
+
+app.mount('#app')
