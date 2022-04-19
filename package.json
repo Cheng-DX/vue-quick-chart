@@ -1,0 +1,15 @@
+{
+  "name": "vue-quick-chart",
+  "version": "0.0.1",
+  "description": "Quick chart for vue",
+  "main": "index.ts",
+  "scripts": {
+    "play": "vite playground --open"
+  },
+  "dependencies": {},
+  "keywords": [
+    "chart"
+  ],
+  "author": "Cheng-DX",
+  "license": "MIT"
+}
