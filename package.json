@@ -6,10 +6,12 @@
   "scripts": {
     "play": "vite playground --open"
   },
-  "dependencies": {},
   "keywords": [
     "chart"
   ],
   "author": "Cheng-DX",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^2.9.5"
+  }
 }
